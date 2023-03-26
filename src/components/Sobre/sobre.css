@@ -1,0 +1,22 @@
+.sobre {
+  width: 100vw;
+  height: auto;
+  padding: 100px 0px;
+  background-color: #df585d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sobre img {
+  width: auto;
+  max-height: 350px;
+  border-radius: 5%;
+}
+
+.textblock {
+  max-width: 70vw;
+}
+
+.textblock p {
+  font-size: 24px;
+}
