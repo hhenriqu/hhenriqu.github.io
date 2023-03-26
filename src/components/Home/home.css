@@ -1,0 +1,31 @@
+.home {
+  width: 100vw;
+  height: auto;
+  padding: 100px 0px;
+  background-color: white;
+}
+
+.logo-home {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo-home:hover {
+  filter: drop-shadow(0 0 2em #132138);
+  animation: logo-spin-home infinite 2s linear;
+}
+
+@keyframes logo-spin-home {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home p {
+  margin: 0;
+  color: #132138;
+}

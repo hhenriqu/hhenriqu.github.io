@@ -56,8 +56,14 @@ function Navbar() {
           </>
         )
       ) : (
-        <div>
-          <p>Quem sou Eu?</p>
+        <div className="navbar">
+          <div className="menu">
+            <p>HOME</p>
+            <p>SOBRE</p>
+            <p>CONHECIMENTO</p>
+            <p>PROJETOS</p>
+            <p>CONTATO</p>
+          </div>
         </div>
       )}
     </>
